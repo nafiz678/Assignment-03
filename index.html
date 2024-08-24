@@ -48,7 +48,7 @@
                   <a class="text-3xl lg:text-4xl font-extrabold">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu  menu-horizontal px-1 text-sm">
+                  <ul class="menu  menu-horizontal px-1 pr-4 text-sm">
                     <li><a class="font-extrabold rounded-full text-[#494949]" href="#">Home</a></li>
 
                     <li><a class="text-[#737373] rounded-full" href="#">Services</a></li>
@@ -79,9 +79,9 @@
                     <div class="mr-3 hidden border lg:grid  text-center px-2 py-2 rounded-full bg-[#FFFFFF]">
                     <i class="hidden lg:grid fa-solid fa-cart-shopping"></i>
                      </div>
-                    <a class="btn hover:bg-[#ABEF5F] rounded-full  px-5 py-3 hidden bg-[#ABEF5F] lg:flex items-center justify-center">Book Consult <div class="bg-[#1C1C1C] px-2 py-[6px] rounded-full mr-2"> 
+                    <button class="btn hover:bg-[#ABEF5F] rounded-full  px-5 py-2 hidden bg-[#ABEF5F] lg:flex items-center justify-center">Book Consult <div class="bg-[#1C1C1C] px-2 py-[6px] rounded-full mr-2"> 
                         <i class="invert fa-solid fa-arrow-right -rotate-45"></i>
-                      </div> </a>
+                      </div> </button>
                  
                 </div>
               </div>
@@ -280,9 +280,53 @@
             <img src="./assets/bg-my.gif" alt="">
           </div>
          </section>
+
+         <!-- Lets Connects section -->
+         <section class="bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat h-full w-full mt-1 lg:pt-12">
+          <div class="w-11/12 mx-auto pt-8 pb-4 lg:pb-9">
+            <div class="flex flex-col items-center justify-center ">
+              <button class="bg-portfolio text-sm lg:text-base px-4 py-2 rounded-3xl mb-3 font-extrabold"><i class="fa-solid fa-arrow-right mr-1 "></i>Let’s Connect</button>
+              <h1 class="lg:text-5xl text-2xl tracking-tight text-center lg:leading-tight  font-black lg:mb-2 ">Let’s Discuss Next Project</h1>
+              <p class="py-4 lg:mb-3 lg:w-2/3 text-center text-sm font-semibold text-[#494949]">
+                Contact a registered builder in your area. Most builders have building designers in house and are happy to look your design.
+              </p>
+            </div>
+
+            <div class="grid lg:w-3/4 mx-auto lg:gap-5 grid-cols-1 lg:grid-cols-2 text-sm font-medium text-[#A0A0A0] lg:mb-5 ">
+              <input class="mb-5 lg:mb-0  py-3 lg:py-5 px-5 rounded-full" type="text" placeholder="First Name*" name="" id="">
+              <input class="mb-5 lg:mb-0  py-3 lg:py-5 px-5 rounded-full" type="text" placeholder="Last Name*" name="" id="">
+              <input class="mb-5 lg:mb-0  py-3 lg:py-5 px-5 rounded-full" type="number" placeholder="Phone Number*" name="" id="">
+              <input class="mb-5 lg:mb-0  py-3 lg:py-5 px-5 rounded-full" type="text" placeholder="Email Number*" name="" id="">
+            </div>
+            <div class="grid lg:w-3/4 mx-auto text-sm font-medium text-[#A0A0A0] lg:pb-14">
+              <textarea class=" mb-5 py-3 px-5 rounded-3xl" placeholder="Write your message here" rows="7"  name="" id=""></textarea>
+              <button class="btn hover:bg-[#ABEF5F] lg:font-extrabold rounded-full  px-5 py-2 hidden bg-[#ABEF5F] lg:flex items-center justify-center">Send Mail <div class="bg-[#1C1C1C] px-2 py-[7px] rounded-full mr-2"> 
+                <i class="invert fa-solid fa-arrow-right -rotate-45"></i>
+              </div> </button>
+            </div>
+          </div>
+         </section>
      </main>
 
      <!-- Footer Section -->
-     <footer></footer>
+      <footer class="footer footer-center text-base bg-[#1C1C1C] text-[#E9E9E9] text-base-content rounded px-10 py-16 gap-4">
+        <div class="flex">
+          <div class="bg-[#ABEF5F] px-2 py-1 rounded-full mr-1">
+            <i class="invert fa-solid fa-arrow-right -rotate-45"></i>
+          </div>
+          <a class="text-3xl lg:text-4xl font-extrabold">Rinterio</a>
+        </div>
+        <p class="text-sm text-[#737373] font-semibold mb-4 lg:w-3/4">Building design encompasses both the exterior and interior aspects of a structure. It involves determining the size, shape, and layout of the building.</p>
+        <nav class="flex flex-col lg:flex-row lg:gap-24 gap-7 mb-4">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
+          <button class="btn border-0 font-extrabold hover:bg-[#ABEF5F] rounded-full py-3 px-10 lg:px-6 bg-[#ABEF5F] flex items-center justify-center">Book Consult <div class="bg-[#1C1C1C] px-2 py-[6px] rounded-full"> 
+            <i class="invert fa-solid fa-arrow-right -rotate-45"></i>
+          </div> </button>
+     </footer>
 </body>
 </html>
